@@ -3,32 +3,6 @@ const JWT = require('jsonwebtoken');
 const app = express();
 
 
-// app.get('/api/confd/1.1/infos', (req, res) => {
-//     res.send({
-//         firstName: 'Eker',
-//         lastName: 'Eker',
-//         email: 'eker@eker.com',
-//         lines: [],
-//         username: 'eker',
-//         forwards: {
-//             unconditional: {
-//                 destination: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
-//                 enabled: true,
-//             },
-//             noanswer: {
-//                 destination: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
-//                 enabled: true,
-//             },
-//             busy: {
-//                 destination: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
-//                 enabled: true,
-//             },
-//         },
-//         voicemail: 'eker@eker.com',
-//         agent: 'Mozilla',
-//     });
-// });
-
 const RSA = `-----BEGIN RSA PRIVATE KEY-----
 MIICXwIBAAKBgQCtI/viGQXX2G2e1FirTb9RBqiToJYTQ8Mc/hvCYBfe8NNR59AT
 Cp/hoBC//NeoXfbfGkmDk7uoK2N7QS6jdI9Rq6jyCYVHU1EMDebmxDRL6meakX0F
